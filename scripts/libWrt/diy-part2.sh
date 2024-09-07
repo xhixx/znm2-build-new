@@ -15,5 +15,7 @@
 
 # Enable Cache
 #echo -e 'CONFIG_DEVEL=y\nCONFIG_CCACHE=y' >> .config
+#lucky
+git clone --depth=1 https://github.com/gdy666/luci-app-lucky.git package/lucky
 
 
