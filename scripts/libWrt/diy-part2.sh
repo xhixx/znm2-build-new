@@ -15,9 +15,5 @@
 
 # Enable Cache
 #echo -e 'CONFIG_DEVEL=y\nCONFIG_CCACHE=y' >> .config
-git clone --depth=1 https://github.com/gdy666/luci-app-lucky.git package/lucky
-# 编译lucky IPK包
-make package/lucky/lucky/compile V=s
-# 编译luci-app-lucky IPK包
-make package/lucky/luci-app-lucky/compile V=s
+
 
