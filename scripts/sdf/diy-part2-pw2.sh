@@ -25,3 +25,5 @@ git clone --depth=1  https://github.com/sirpdboy/luci-app-ddns-go.git package/dd
 # mosdns
 rm -rf feeds/packages/net/mosdns
 git clone --depth=1 https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
+
+git clone --depth=1 https://github.com/gdy666/luci-app-lucky.git package/lucky
